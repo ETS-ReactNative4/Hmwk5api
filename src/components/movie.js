@@ -15,6 +15,17 @@ class Movie extends Component {
             dispatch(fetchMovie(this.props.movieId));
     }
 
+    reviewSub() {
+        const env=runtimeEnv();
+        var json = {
+            rating:this.state.details.rating,
+            Moviesid:this.state.details.Moviesid,
+            reviews:this.state.details.review
+
+        }:
+    }
+
+
     render() {
         const ActorInfo = ({actors}) => {
             return actors.map((actor, i) =>
