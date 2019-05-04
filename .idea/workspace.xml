@@ -126,10 +126,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="641" />
-    <option name="y" value="27" />
-    <option name="width" value="949" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="61" />
+    <option name="width" value="1400" />
     <option name="height" value="792" />
   </component>
   <component name="ProjectView">
