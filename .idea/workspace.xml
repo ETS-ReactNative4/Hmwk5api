@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a91e8c10-f8cd-4c79-a8c1-a9f8e4a2a776" name="Default Changelist" comment="" />
+    <list default="true" id="a91e8c10-f8cd-4c79-a8c1-a9f8e4a2a776" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env.development">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -92,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <state relative-caret-position="233">
+              <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -107,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/movielist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="237">
               <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -128,6 +130,7 @@
       <find>image</find>
       <find>Image</find>
       <find>ImageUrl</find>
+      <find>ACtor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,10 +139,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/movielist.js" />
-        <option value="$PROJECT_DIR$/src/components/movie.js" />
         <option value="$PROJECT_DIR$/.env.development" />
         <option value="$PROJECT_DIR$/src/actions/movieActions.js" />
+        <option value="$PROJECT_DIR$/src/components/movielist.js" />
+        <option value="$PROJECT_DIR$/src/components/movie.js" />
       </list>
     </option>
   </component>
@@ -180,6 +183,24 @@
               <item name="Hmwk5api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hmwk5api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hmwk5api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hmwk5api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hmwk5api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hmwk5api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hmwk5api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,24 +280,24 @@
       <workItem from="1556937505420" duration="2304000" />
       <workItem from="1556942488456" duration="5207000" />
       <workItem from="1556984915659" duration="1230000" />
-      <workItem from="1556991555636" duration="8308000" />
+      <workItem from="1556991555636" duration="9402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19178000" />
+    <option name="totallyTimeSpent" value="20272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1400" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4940048" visible="true" weight="0.25670776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.25670776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="npm" order="2" sideWeight="0.5059952" side_tool="true" visible="true" weight="0.25670776" />
+      <window_info id="npm" order="2" sideWeight="0.5050505" side_tool="true" weight="0.25670776" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27631578" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27631578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,7 +305,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39035088" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39035088" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,26 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/movielist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -419,6 +420,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="50" lean-forward="true" selection-start-column="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/movielist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
