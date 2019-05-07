@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91e8c10-f8cd-4c79-a8c1-a9f8e4a2a776" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/movielist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movielist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="199" />
     <option name="y" value="31" />
     <option name="width" value="1400" />
@@ -281,15 +281,16 @@
       <workItem from="1556937505420" duration="2304000" />
       <workItem from="1556942488456" duration="5207000" />
       <workItem from="1556984915659" duration="1230000" />
-      <workItem from="1556991555636" duration="9785000" />
+      <workItem from="1556991555636" duration="9992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20655000" />
+    <option name="totallyTimeSpent" value="20862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="199" y="31" width="1400" height="792" extended-state="0" />
+    <frame x="199" y="31" width="1400" height="792" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.25670776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
