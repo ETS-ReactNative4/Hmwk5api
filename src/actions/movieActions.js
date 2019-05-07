@@ -15,10 +15,10 @@ function movieFetched(movie){
     }
 }
 
-function movieSet(movie){
+function movieSet(movies){
     return {
         type: actionTypes.SET_MOVIE,
-        selectedMovie: movie
+        selectedMovie: movies
     }
 }
 
@@ -31,7 +31,8 @@ export function setMovie(movie) {
 export function fetchMovies(){
     const env = runtimeEnv();
     return dispatch => {
-        return fetch(`${env.REACT_APP_API_URL}/movie?reviews=true`, {
+        // return fetch(`${env.REACT_APP_API_URL}/movie?reviews=true`, {
+        return fetch(`${env.REACT_APP_API_URL}/movie/?reviews=true`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -55,7 +56,7 @@ export function fetchMovies(){
 export function fetchMovie(movieid){
     const env = runtimeEnv();
     return dispatch => {
-        return fetch(`${env.REACT_APP_API_URL}/movie/${movieid}?reviews=true`, {
+        return fetch(`${env.REACT_APP_API_URL}/movie/${movieid}?reviews=true&movieid=${movieid}`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -70,7 +71,7 @@ export function fetchMovie(movieid){
                 return response.json();
             })
             .then( (res) => {
-                dispatch(movieFetched(res));
+                dispatch(movieFetched(res[0]));
             })
             .catch( (e) => console.log(e) );
     }
